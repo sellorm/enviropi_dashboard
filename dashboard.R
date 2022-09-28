@@ -20,7 +20,7 @@ if(!dir.exists(log_dir)){
 ## Sidebar
 sidebar <- dashboardSidebar(
   sidebarMenu(
-    sh2(textOutput("datetime")),
+    h2(textOutput("datetime")),
     selectInput("filepicker",
                 "Select date to view:",
                 choices = c("today",
