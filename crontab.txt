@@ -1,0 +1,5 @@
+# Example crontab for running the enviropi logger - runs once a minute and 
+# writes data to a file with the date in its name.
+# 
+# m h  dom mon dow   command
+* * * * * /home/<USERNAME>/enviropi_dashboard/logger.py >> ~/enviropi_dashboard/enviro_$(date -uI).log
