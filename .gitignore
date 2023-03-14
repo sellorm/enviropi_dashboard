@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+sensor.py
+__pycache__
